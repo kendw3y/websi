@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: inline-block;
+    
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+}
+.img_logo{
+    
+    width: 145px;
+    height: 85px;
+    position: absolute;
+    
+}
+
+.div_logo{
+    font-size: 12px;
+    color: rgb(18, 21, 5);
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    position: absolute;
+    left: 155px;
+
+}
+.caja-tabla{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    width: 1080px;
+}
+.caja-tabla h1{
+    padding-left: 400px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+    
+}
+
+table{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+thead tr th{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+td{
+    border-bottom: 1px solid gray;
+}
+td,th{
+    padding:5px;
+    margin: 5px;
+}
